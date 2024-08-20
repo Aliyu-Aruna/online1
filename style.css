@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    padding: 20px;
+}
+.container {
+    border: 1px solid rosybrown;
+    max-width: 280px;
+    height: 400px;
+    line-height: 30px;
+    padding: 25px;
+    box-shadow: 0.7;
+}
+.info {
+    text-align: center;
+}
+p {
+    font-size: large;
+}
+span {
+    font-weight: bolder;
+}
+button {
+    border: none;
+    overflow: none;
+    background: green;
+    color: white;
+    width: 80px;
+    height: 35px;
+    border-radius: 5px;
+}
+button:hover {
+    color: rgb(36, 40, 16);
+}
+
+
